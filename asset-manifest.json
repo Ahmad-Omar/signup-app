@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/signup-app/static/css/main.f35ea860.chunk.css",
+    "main.js": "/signup-app/static/js/main.5c0f4b0c.chunk.js",
+    "main.js.map": "/signup-app/static/js/main.5c0f4b0c.chunk.js.map",
+    "runtime-main.js": "/signup-app/static/js/runtime-main.04c39647.js",
+    "runtime-main.js.map": "/signup-app/static/js/runtime-main.04c39647.js.map",
+    "static/js/2.893ca1fb.chunk.js": "/signup-app/static/js/2.893ca1fb.chunk.js",
+    "static/js/2.893ca1fb.chunk.js.map": "/signup-app/static/js/2.893ca1fb.chunk.js.map",
+    "index.html": "/signup-app/index.html",
+    "static/css/main.f35ea860.chunk.css.map": "/signup-app/static/css/main.f35ea860.chunk.css.map",
+    "static/js/2.893ca1fb.chunk.js.LICENSE.txt": "/signup-app/static/js/2.893ca1fb.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/signup-app/static/media/signup-img.448b03ee.png",
+    "static/media/github.c0f0dd34.svg": "/signup-app/static/media/github.c0f0dd34.svg",
+    "static/media/google.c3c756b0.svg": "/signup-app/static/media/google.c3c756b0.svg",
+    "static/media/linkedin.e82f825c.svg": "/signup-app/static/media/linkedin.e82f825c.svg",
+    "static/media/logowhite.f2224f8b.svg": "/signup-app/static/media/logowhite.f2224f8b.svg",
+    "static/media/logowithtext.f1dcc365.svg": "/signup-app/static/media/logowithtext.f1dcc365.svg",
+    "static/media/signin-img.899607da.png": "/signup-app/static/media/signin-img.899607da.png",
+    "static/media/twitter.0ea9224c.svg": "/signup-app/static/media/twitter.0ea9224c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04c39647.js",
+    "static/js/2.893ca1fb.chunk.js",
+    "static/css/main.f35ea860.chunk.css",
+    "static/js/main.5c0f4b0c.chunk.js"
+  ]
+}
