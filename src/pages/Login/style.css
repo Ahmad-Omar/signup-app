@@ -1,0 +1,55 @@
+.login {
+    display: flex;
+}
+@media (max-width: 576px) {
+    .login {
+        flex-direction: column;
+    }
+}
+.login .left-side {
+    padding: 50px 75px;
+    box-sizing: border-box;
+    flex-basis: 45%;
+    position: relative;
+}
+@media (max-width: 576px) {
+    .login .left-side {
+        padding: 50px;
+    }
+}
+.login .left-side .site-logotext img {
+    width: 100%;
+}
+.login .left-side .console-img {
+    position: absolute;
+    right: -10px;
+    bottom: 8px;
+    width: 250px;
+}
+@media (max-width: 576px) {
+    .login .left-side .console-img {
+        right: 60px;
+        bottom: 0px;
+        width: 145px;
+    }
+}
+.login .right-side {
+    flex-basis: 55%;
+    padding: 150px 220px 120px 150px;
+    box-sizing: border-box;
+}
+@media (max-width: 576px) {
+    .login .right-side {
+        padding: 110px 50px;
+    }
+}
+.login .right-side .login-title {
+    font-size: 38px;
+}
+.login .right-side .login-title, .login .right-side .login-p {
+    text-align: center;
+}
+.login .right-side .login-p {
+    color: var(--light-grey);
+    padding: 12px 0;
+}

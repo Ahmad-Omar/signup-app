@@ -1,0 +1,36 @@
+.quote {
+    font-size: 20px;
+    margin: 180px 0;
+    font-weight: 300;
+    position: relative;
+}
+.quote::before {
+    content: url(../../assets/images/quote.svg);
+}
+.quote::after {
+    content: url(../../assets/images/arrow.svg);
+    position: absolute;
+    right: 0;
+}
+.quote blockquote {
+    line-height: 1.9;
+}
+.quote .author {
+    margin-top: 60px;
+}
+.quote-login {
+    color: var(--dark-grey);
+    font-weight: 400;
+}
+.quote-login blockquote {
+    font-style: italic;
+}
+.quote-login .author {
+    font-weight: 500;
+}
+.quote-login::before {
+    content: url(../../assets/images/quote-login.svg)
+}
+.quote-login::after {
+    content: "";
+}

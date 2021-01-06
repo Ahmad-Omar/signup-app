@@ -1,0 +1,22 @@
+.or {
+    display: block;
+    text-align: center;
+    color: #BABABA;
+    font-size: 10px;
+    position: relative;
+    margin: 2px 0;
+}
+.or::before, .or::after {
+    content: "";
+    background-color: rgb(186 186 186 / .5);
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+}
+.or::before {
+    left: 0;
+}
+.or::after {
+    right: 0;
+}

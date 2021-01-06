@@ -1,0 +1,61 @@
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+.signup-form label {
+    display: flex;
+    flex-direction: column;
+    color: var(--dark-grey);
+    padding: 18px 0 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.signup-form input[type="submit"] {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.signup-form input[type="submit"]:hover {
+    background-color: #1355b5;
+}
+.signup-form .agree {
+    display: inline;
+    margin-bottom: 20px;
+}
+.signup-form .agree input {
+    margin-right: 6px;
+    position: relative;
+    top: 3px;
+}
+label .input-error {
+    border: 1.5px solid rgb(255 0 0 / 77%);
+    color: rgb(255 0 0 / 77%);
+}
+label .error-text {
+    font-size: 12px;
+    color: rgb(255 0 0 / 77%);
+}
+input[type=checkbox]:checked, input[type=radio]:checked {
+    background-color: #1355b5;
+    border-radius: 4px;
+}
+input[type=checkbox] {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background-color: #C4C4C4;
+    outline: 0;
+}
+input[type=checkbox]::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #C4C4C4;
+    position: absolute;
+    border-radius: 4px;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+}

@@ -1,0 +1,9 @@
+.site-logo {
+    position: relative;
+}
+.site-logo .logo-text {
+    position: absolute;
+    top: 10px;
+    left: 46px;
+    font-weight: 300;
+}
